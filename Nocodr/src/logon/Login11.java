@@ -36,7 +36,7 @@ public class Login11
             
             WebElement checkBox = driver.findElement(By.xpath("/html/body/abx-modal/section/div/div/abx-sign-up/div/div/div[2]/span/abx-tabs/div/div/abx-tab[1]/div/div/abx-form/div/div/abx-container/div/div/div/span[2]/abx-layout-item/div/abx-field/div/div/div/div[1]/abx-checkbox/div/label/span")); // Replace with actual checkbox ID
             if (!checkBox.isSelected()) {
-                checkBox.click();  // Check the box if it's not already selected
+                checkBox.click();  
             }
 
             // Locate and click the "Proceed" button within the popup
