@@ -47,11 +47,14 @@ public class Login11
             verifybtn.click()	;
             
             
-            WebElement firstname = driver.findElement(By.id("id_17365093771526452"));
-          firstname.sendKeys("Shivani");
-            WebElement lastname = driver.findElement(By.id("id_17365093771537108")); 
+             WebElement firstname = driver.findElement(By.id("id_17365093771526452"));
+             firstname.sendKeys("Shivani");
+            WebElement lastname = driver.findElement(By.id("id_17365093771537108"));
+            lastname.sendKeys("Shete");
             WebElement passwordField = driver.findElement(By.id("id_17365093771547041")); 
+            passwordField.sendKeys("Shivani123");
             WebElement confirmPasswordField = driver.findElement(By.id("id_17365093771547041-confirmpassword"));
+            confirmPasswordField.sendKeys("Shivani123");
             
             
 
